@@ -9,11 +9,6 @@ public class Cliente {
         this.email = email;
     }
 
-    public void atualizarDados(String nome,String email) {
-        this.nome = nome;
-        this.email = email;
-    }
-
     public String getNome() {
         return nome;
     }
@@ -24,5 +19,10 @@ public class Cliente {
 
     public int getId() {
         return id;
+    }
+
+    public void atualizarDados(String nome,String email) {
+        this.nome = nome;
+        this.email = email;
     }
 }
